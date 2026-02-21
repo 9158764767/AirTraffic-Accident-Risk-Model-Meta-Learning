@@ -195,7 +195,11 @@ The use of **ONNX** enables:
 ---
 
 ## 🏗 Project Architecture
+## 🏗 System Architecture
 
+<p align="center">
+  <img src="asset/architecture.png" width="80%">
+</p>
 ```
 Raw ATC Data
       ↓
