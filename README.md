@@ -254,16 +254,24 @@ python calculate_shap_v2.py
 This will update the plots in the `assets/` folder.
 
 ## 📊 Understanding the results
-
+<p align="center">                                
+  <img src="Explainable_ATC_MAML_Package/assets/v2_shap_bar.png" width="50%">                                        
+  </p> 
 ### Global Importance (`v2_shap_bar.png`)
 Shows the overall ranking of features. For example, if **Altitude** is at the top, it means the model's risk prediction is most sensitive to flight height.
 
 ### Feature Sensitivity (`v2_shap_summary.png`)
+<p align="center">                                
+  <img src="Explainable_ATC_MAML_Package/assets/v2_shap_summary.png" width="50%">                                        
+  </p> 
 Shows the *direction* of influence.
 - **Red dots** (High value) on the right mean the feature increases risk.
 - **Blue dots** (Low value) on the right mean the feature increases risk.
 
 ### Decision Journey (`v2_shap_waterfall.png`)
+<p align="center">                                
+  <img src="Explainable_ATC_MAML_Package/assets/v2_shap_waterfall.png" width="50%">                                        
+  </p> 
 Shows the contribution of each feature to a **single specific prediction**.
 - **Positive values (Pink)**: Features that pushed the risk higher for this flight.
 - **Negative values (Blue)**: Features that decreased the risk for this flight.
