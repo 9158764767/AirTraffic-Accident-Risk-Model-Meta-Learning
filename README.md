@@ -228,6 +228,26 @@ ADAI_Proj/
 ├── models/
 ├── requirements.txt
 └── README.md
+
+Iteration_2_MAML_Engine/
+├── data/                            # Processed datasets for meta-learning
+│   ├── final_acas_data.csv
+│   ├── final_dataframe_trfcomplexity.csv
+│   └── ... (auxiliary ONNX data)
+├── .gitignore                       # Keeps repo clean from cache/temp files
+├── .ipynb_checkpoints/
+├── ONNX_2.ipynb                     # Main Analysis & Workflow Notebook
+├── README.md                        # Technical Guide for Iteration 2
+├── accident_prediction_v2.onnx      # Final Trained MAML Model
+├── build_dashboard_data_v2.py       # Dashboard Metric Generator
+├── calculate_metrics.py             # Precision/Recall/F1 Calculator
+├── extract_geo.py                   # Geo-spatial Feature Extractor
+├── generate_dashboard_data.py       # Main Dashboard Plotting Engine
+├── inject_geo_data.py               # Landing Page Data Integration
+├── model_metrics.json               # Performance Benchmarks
+├── requirements.txt                 # Dependencies (torch, onnx, etc.)
+├── set_complexity.py                # Complexity Configuration Utility
+└── train_v2.py                      # Core MAML Meta-Learning Engine
 ```
 
 ---
