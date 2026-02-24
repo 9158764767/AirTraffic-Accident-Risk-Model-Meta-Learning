@@ -195,10 +195,10 @@ The use of **ONNX** enables:
 ---
 
 ## 🏗 Project Architecture
-<p align="left">                                 <p align="Right">
-  <img src="asset/image.png" width="50%">    <img src="asset/Arch_Iteration_2.png" width="50%"> 
-                                              
-  </p>                                            </p>
+<p align="center">                                
+  <img src="asset/image.png" width="50%">    
+  <img src="asset/Arch_Iteration_2.png" width="50%">                                        
+  </p>                                            
 
 ## 🏗 System Architecture
 
