@@ -1,0 +1,8 @@
+{
+    "precision": 0.8001,
+    "recall": 1.0,
+    "f1_score": 0.889,
+    "test_samples": 1396,
+    "target_source": "Resolution Advisory (RA) Indicators",
+    "implementation": "Best Implementation (Real Targets)"
+}

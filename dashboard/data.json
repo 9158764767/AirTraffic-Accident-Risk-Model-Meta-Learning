@@ -1,0 +1,102 @@
+{
+    "eda_stats": {
+        "total_flights": 1000,
+        "high_risk_percentage": 15.5,
+        "correlations": {
+            "Altitude": 0.45,
+            "Vertical_Speed": 0.32,
+            "TRF_Complexity": 0.78
+        }
+    },
+    "training_metrics": {
+        "epochs": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "loss": [
+            0.654,
+            0.432,
+            0.321,
+            0.210,
+            0.156
+        ]
+    },
+    "prediction_distribution": {
+        "bins": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+        ],
+        "non_high_risk": [
+            50,
+            120,
+            200,
+            150,
+            80,
+            40,
+            20,
+            10,
+            5,
+            2
+        ],
+        "high_risk": [
+            2,
+            5,
+            10,
+            20,
+            40,
+            60,
+            100,
+            180,
+            150,
+            40
+        ]
+    },
+    "plot_gallery": {
+        "eda": [
+            "assets/ATC_executed_cell_6_0.png",
+            "assets/ATC_executed_cell_7_1.png",
+            "assets/ATC_executed_cell_10_2.png",
+            "assets/ATC_executed_cell_10_3.png",
+            "assets/ATC_executed_cell_10_4.png",
+            "assets/ATC_executed_cell_10_5.png",
+            "assets/ATC_executed_cell_10_6.png",
+            "assets/ATC_executed_cell_20_7.png",
+            "assets/ATC_executed_cell_24_8.png",
+            "assets/ATC_executed_cell_24_9.png",
+            "assets/ATC_executed_cell_24_10.png",
+            "assets/ATC_executed_cell_24_11.png",
+            "assets/ATC_executed_cell_25_12.png",
+            "assets/ATC_executed_cell_25_13.png",
+            "assets/ATC_executed_cell_27_14.png",
+            "assets/ATC_executed_cell_27_15.png",
+            "assets/ATC_executed_cell_27_16.png",
+            "assets/ATC_executed_cell_27_17.png"
+        ],
+        "training": [
+            "assets/onnx_1_run_fixed_cell_4_0.png",
+            "assets/onnx_1_run_fixed_cell_5_1.png",
+            "assets/onnx_1_run_fixed_cell_6_2.png",
+            "assets/onnx_1_run_fixed_cell_7_3.png"
+        ],
+        "inference": [
+            "assets/ONNX_2_run_cell_3_0.png",
+            "assets/ONNX_2_run_cell_4_1.png",
+            "assets/ONNX_2_run_cell_5_2.png",
+            "assets/ONNX_2_run_cell_7_3.png",
+            "assets/ONNX_2_run_cell_8_4.png",
+            "assets/ONNX_2_run_cell_8_5.png"
+        ]
+    }
+}
